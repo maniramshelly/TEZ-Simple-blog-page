@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navwraper{
+    background: #fdfdfd;
+    
+}
+nav{
+    width: 80%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    
+}
+nav .logo{
+    margin: 0;
+
+}
+nav .logo img{
+    margin-left: 10px;
+    width: 120px;
+}
+nav .navbar ul{
+    list-style: none;    
+}
+nav .navbar ul li{
+    float: left;
+    padding: 0 35px;
+}
+nav .navbar ul li a{
+    text-decoration: none;
+    color: #ee2b2b;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .navbar ul li a:hover
+
+{
+    color: rgb(25, 25, 141);
+}
+section{
+    width: 80%;
+    margin: auto;
+    background: #fdfbfb;
+    box-shadow: 0px 5px 15px 5px rgb(85, 82, 82);
+    
+}
+
+.content{
+   
+   margin: auto;
+       text-align: center;
+    
+}
+.content img{
+    
+  
+}
+.blog{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+.blog h1{
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.blog p{
+    letter-spacing: 1px;
+}
+button{
+    margin:10px 0px;
+    padding: 8px 18px;
+    background: #ee2b2b;
+    border: none;
+    border-radius: 5px;
+    color: #fdfbfb;
+    cursor: pointer;
+    
+}
+footer{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background: #555252;
+    color: #fdfbfb;
+}
